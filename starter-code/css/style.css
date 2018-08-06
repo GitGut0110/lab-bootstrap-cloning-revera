@@ -1,8 +1,121 @@
 body{
-    background-color:  darkolivegreen;
     font-family: sans-serif;
 }
+h1{
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
 
+}
+h2{ 
+    line-height: 1.3rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    color: rgb(175,175,175);
+}
+h3{
+    color: white;
+    font-weight:bold;
+    padding-top: 3rem;
+    padding-bottom:2rem;
+}
+h5{
+    line-height: 1.3rem;    
+    font-size: 1.5rem;
+}
 #nav-bar{
     background-color: white;
+}
+#carousel img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.carousel-control-prev-icon  {
+    left:0 !important;
+    background-color: rgb(206,99,80);
+    height: 100px;
+    width: 50px;
+  }
+.carousel-control-next-icon {
+    background-color: rgb(206,99,80);
+    height: 100px;
+    width: 50px;
+  }
+.sliderText{
+    line-height: 5rem;
+    width: 800px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -400px;
+    text-align: center;
+    z-index: 120;
+    color: #fff;
+}
+.slideH1{
+    font-size: 5rem;
+}
+.slideP{
+    font-size: 3rem;
+}
+#three-columns{
+    border-top: 0.5rem solid rgb(218,117,100);
+    border-bottom: 0.5rem solid rgb(218,117,100);
+    background-color:rgb(206,99,80);
+    text-align:center;
+    color: white;
+    padding:2rem 10% 2.5rem 10%;
+}
+#three-columns div{
+    border-style:none;
+    background-color:rgb(206,99,80);
+    line-height: 1.3rem;
+    font-weight: lighter;
+}
+#card-content{
+    padding-top: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#subfooter{
+    background-color: rgb(59,59,59);
+    border-top: 4px solid rgb(218,117,100);
+    padding-left:2rem!important;
+}
+#subfooter p,li{
+    color: rgb(175,175,175);
+    background-color:transparent !important;
+}
+
+#footer{
+    padding-left:2rem!important;
+    background-color: rgb(30,30,30);
+    color: white;
+    font-weight:lighter;
+    font: 0.6rem;
+    
+    line-height: 1.6;
+}
+.doverlay {
+    background: url(/starter-code/img/overlay.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+.contentBox {
+    margin-top:1rem;
+    margin-bottom: 2.5rem;
+}
+.article-title{
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+}
+.infoLatest{
+    font-weight:bolder;
+}
+.infoLinks{
+    border-bottom: 1px solid rgb(175,175,175);
+    font-weight:bold;
 }
