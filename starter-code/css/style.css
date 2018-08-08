@@ -29,6 +29,9 @@ h5{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
+.carousel-caption{
+    padding-bottom: 20%;
+}
 .carousel-control-prev-icon  {
     left:0 !important;
     background-color: rgb(206,99,80);
